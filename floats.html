@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Floating Elements</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        div {
+            background-color: aquamarine;
+        }
+
+        p {
+            border: 1px solid black;
+        }
+
+        .p {
+            width: 50px;
+            height: 50px;
+        }
+
+        #p1 {
+            background-color: fuchsia;
+            float: right;
+        }
+
+        #p2 {
+            background-color: darkmagenta;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        #p3 {
+            clear: left;
+            background-color: orange;
+        }
+
+        #p4 {
+            background-color: crimson;
+        }
+
+        #p5 {
+            background-color: fuchsia;
+            float: right;
+        }
+
+        #p6 {
+            background-color: darkmagenta;
+        }
+
+        section {
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+<h1>Floating Elements</h1>
+<a href="mediaquery.html" style="font-size: 20px;color: brown">Next Page</a>
+<div>
+    <p id="p1" class="p"></p>
+    <p id="p2" class="p"></p>
+    <p id="p3" class="p"></p>
+    <p id="p4" class="p"></p>
+    <section>
+        This is regular content continuing after the paragraph boxes
+    </section>
+</div>
+<div>
+    <p id="p5" style="width: 50%">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+    </p>
+    <p id="p6" style="width: 50%">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+    </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page Title</title>
+    <style>
+        h1 {
+            color: chartreuse;
+            font-size: 40px;
+            text-align: center;
+            font-family: Algerian, monospace;
+        }
+
+        #section {
+            alignment: center;
+            child-align: inherit;
+        }
+
+        #style1 {
+            color: darkcyan;
+            font-family: "Colonna MT", fantasy;
+            font-size: 30px;
+            justify-content: center;
+        }
+
+        .center {
+            text-align: center;
+            list-style: inside;
+        }
+
+        p.big {
+            font-size: 20px;
+            color: darkmagenta;
+        }
+
+        .big {
+            font-size: 25px;
+            color: orange;
+        }
+
+        .big p {
+            text-align: center;
+        }
+
+        .big.center {
+            text-align: center;
+            font-size: 30px;
+            color: orange;
+        }
+
+        ol > li {
+            color: chocolate;
+            font-size: 25px;
+            font-family: Elephant, fantasy;
+        }
+
+        section div {
+            font-size: 20px;
+            text-align: center;
+            color: aqua;
+        }
+
+        ul > li {
+            color: darkmagenta;
+            font-family: Broadway, fantasy;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: gainsboro;
+        }
+    </style>
+</head>
+<body>
+<h1>Shopping List</h1>
+<section id="section">
+    <p class="center" id="style1">
+        These are shopping list items
+    </p>
+
+    <ul class="center">
+        <li>Milk</li>
+        <li>Donuts</li>
+        <li>Cake</li>
+        <li>Chicken</li>
+        <li>Eggs</li>
+        <li>Roast Beef</li>
+        <li>Cookies
+            <ol>
+                <li>Sugar</li>
+                <li>Chocolate chip</li>
+                <li>Chocolate Duet</li>
+            </ol>
+        </li>
+        <li>Taco Salad</li>
+    </ul>
+    <div>
+        <div>
+            <span>
+        Dont forget to buy orange juice!
+            </span>
+        </div>
+    </div>
+</section>
+
+<div class="big">
+    <p>
+        <a href="styles.html">Next Page</a>
+    </p>
+</div>
+
+<script>console.log('hello!')</script>
+</body>
+</html>
